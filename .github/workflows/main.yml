@@ -25,5 +25,5 @@ jobs:
       uses: humanitec/build-push-to-humanitec@v1
       with:
         humanitec-token: ${{ secrets.HUMANITEC_TOKEN }}
-        organization: planet-devops
+        organization: decentral-org
         dockerfile: server
